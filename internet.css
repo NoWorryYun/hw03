@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+	body, h1, h2, h3, li, ul, ol, tr, td, th, thead, tbody {font-size: 17px; font-style: "맑은고딕"}
+	
+	h2 {font-size: 25px;}
+	h3 {font-size: 20px;}
+	
+	.title {font-family: 궁서; font-size: 30px; letter-spacing: 15px;}
+	.itb {font-style: italic; font-weight: bold;}
+	.ita {font-style: italic;}
+	.b {font-weight: bold;}
+	.red {color: #ff0000;}
+	.blue {color: #0000ff;}
+	.green {color: #00ff00;}
+	.under {text-decoration: underline;}
+	.in {text-indent: 30px;}
+	.li-s {list-style-type: square;}
+	.li-d {list-style-type: none;}
+	.bgc-g {background-color: #d9d9d9;}
+	div p {text-indent: 30px;}
+	.bgc-b {background-color: #c8ebfa;}
+	tbody tr:hover {background-color: #edd3ed;}
+	
+	.txt-r {text-align: right;}
+	td.abtd:after {content: "(MB/초)";}
+	td.abtd:before {content: "약";}
+	
+	table a:link {color: #000000; text-decoration: none;}
+	table a:hover {color: #0000ff; text-decoration: underline;}
+	table a:visited {color: #000000;}
+	table a:active {color: #0000ff; text-decoration: underline;}
